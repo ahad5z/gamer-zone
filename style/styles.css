@@ -55,5 +55,43 @@
 
 /*---navbar section starts end---*/
 .banner-container{
+    display: flex;
+    border: 2px solid red;
+    
 
+
+}
+.banner-text{
+    width: 50%;
+    border: 2px solid rgb(10, 238, 105);
+    text-align: center;
+    background: url(../images/Group\ 14.png);
+    width: 901px;
+    `height: 700px;
+
+
+}
+.banner-img{
+    width: 50%;
+    border: 2px solid rgb(28, 14, 161);
+}
+.banner-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.banner-text h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner-text p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
 }
