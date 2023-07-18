@@ -1,20 +1,22 @@
 *body{font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
+/*---navbar section starts ---*/
 .nav-container{
-    border: 1px solid red;
+    
     width: 1920px;
     height: 130px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+   text-align: center;
 }
 
 .logo-container{
     display: flex;
     gap: 15px;
     margin-left: 240px;
-
+    width: 50%;
    
 }
 .logo-container img{
@@ -34,6 +36,24 @@
 }
 
 .nav-items-container{
+    
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    gap: 30px;
+    width: 50%;
 
 }
+.nav-items-container a{
     
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #3C354F;
+    
+}
+
+/*---navbar section starts end---*/
+.banner-container{
+
+}
